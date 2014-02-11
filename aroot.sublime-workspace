@@ -1,0 +1,1084 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"key",
+				"key2"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ff",
+				"f1f1f1"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"APP_G",
+				"APP_GROUP_PATH"
+			],
+			[
+				"pu",
+				"publish"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"pas",
+				"parse_str"
+			],
+			[
+				"fun",
+				"function_exists"
+			],
+			[
+				"re",
+				"ready	$(document).ready"
+			],
+			[
+				"par",
+				"parent_id"
+			],
+			[
+				"term",
+				"term"
+			],
+			[
+				"PAR",
+				"parent"
+			],
+			[
+				"s",
+				"select	Tag"
+			],
+			[
+				"page",
+				"pagedSql"
+			],
+			[
+				"W",
+				"WHERE"
+			],
+			[
+				"sel",
+				"SELECT"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"loca",
+				"localhost"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"pri",
+				"private"
+			],
+			[
+				"login",
+				"loginOut"
+			],
+			[
+				"pr",
+				"private"
+			],
+			[
+				"c",
+				"checkUser"
+			],
+			[
+				"pir",
+				"print_r"
+			],
+			[
+				"tag",
+				"tag_id"
+			],
+			[
+				"post",
+				"post_id"
+			],
+			[
+				"tag_",
+				"tag_name"
+			],
+			[
+				"po",
+				"post_id"
+			],
+			[
+				"db",
+				"dbArr"
+			],
+			[
+				"WH",
+				"where"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"all",
+				"allSql"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"num",
+				"number_format"
+			],
+			[
+				"check",
+				"checkPost"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/modules/admin/resources/themes/default/index.php",
+			"settings":
+			{
+				"buffer_size": 423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/modules/admin/action/indexAction.class.php",
+			"settings":
+			{
+				"buffer_size": 641,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/modules/admin/action/postAction.class.php",
+			"settings":
+			{
+				"buffer_size": 5387,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/lib/model/tag.php",
+			"settings":
+			{
+				"buffer_size": 7774,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/modules/admin/resources/themes/default/user_detail.php",
+			"settings":
+			{
+				"buffer_size": 3156,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/modules/admin/action/userAction.class.php",
+			"settings":
+			{
+				"buffer_size": 1270,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/lib/model/user.php",
+			"settings":
+			{
+				"buffer_size": 1120,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/lib/model/userRegister.php",
+			"settings":
+			{
+				"buffer_size": 1385,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/JSLint/JSLint.sublime-build",
+	"command_palette":
+	{
+		"height": 81.0,
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				" Install Package ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/lib/model/post.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/tagAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/tag_list.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/postAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/tag_detail.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/category_detail.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/indexAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/category_list.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/lib/model/tag.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/lib/data/sql/blog.sql",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/lib/model/category.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/categoryAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/loginAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/style.css",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/login.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/script/common.js",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/category.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/lib/pagination.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/config/config.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/lib/model/common.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/common/common.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/index/action/indexAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/index/resources/themes/default/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/commonAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/lib/model/userLogin.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/resources/themes/default/header.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/index/action/registerAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/lib/model/userRegister.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/index/resources/themes/default/register.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/index/resources/themes/default/style.css",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/action/login.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/t.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/aroot.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/common/runtime.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/lib/action.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/lib/template.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/lib/dispatcher.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/modules/admin/data/cache/e9479d6497c7a20029239335bdf9e5cb.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/.htaccess",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot/lib/url.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/config/config.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/admin/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/app/admin/source/module/category.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/index/config/config.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot3/App/Conf/config.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot3/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/resources/themes/default/header.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/template.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/config.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/testConfig.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/resources/themes/default/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/aroot.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/action.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/dispatcher.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/setting.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/待考虑的功能.txt",
+		"/C/Users/Administrator/Desktop/wifi.bat",
+		"/F/PHPnow-1.5.6/htdocs/aroot3/ThinkPHP/Lib/Core/Dispatcher.class.php",
+		"/F/PHPnow-1.5.6/htdocs/dz/index.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/source/module/search.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/module/searchAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/module/indexAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/function/function.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/module/postAction.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/module/commonAction.classs.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/module/category.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/module/index.class.php",
+		"/F/新建文件夹 (4)/M-master/M/Dispatcher/Dispatcher.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/source/module/post.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/resources/themes/default/functions.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/data/cache/bfc125a4504c89f3f55850a850f9dedf.php.html",
+		"/F/PHPnow-1.5.6/htdocs/aroot/resources/script/common.js",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Thinkphp/php.sublime-completions",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Thinkphp/ThinkPHP.sublime-settings",
+		"/F/PHPnow-1.5.6/htdocs/aroot/其他/class_template.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/其他/page2.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/view.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/upFile.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/post.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/mysql.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/category.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/base.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/F/PHPnow-1.5.6/htdocs/aroot/source/class/tag.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SublimeAlternate/SublimeAlternate.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 2/Packages/SublimeAlternate/Default.sublime-keymap",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/source/module/category.class.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/category_detail.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/source/class/category.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/source/class/tag.php",
+		"/F/PHPnow-1.5.6/htdocs/aroot/admin/source/module/tag.class.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/function/function.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/class/tree.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/其他/Tree.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/module/category.class.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/category_list.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/data/sql/blog.sql",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/tag_detail.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/tag_list.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/module/post.class.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/post_detail.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/class/tag.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/class/category.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/class/post.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/post_list.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/module/tag.class.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/class/mysql.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/tag.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/sidebar.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/index.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/page/ajax.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/resources/themes/default/login.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/class/userLogin.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/admin/source/module/login.class.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/class/template.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/function/function.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/index.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/config.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/class/userRegister.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/source/module/register.class.php",
+		"/E/PHPnow-1.5.6/htdocs/aroot/resources/themes/default/register.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rightItem",
+			"<textarea",
+			"<input type=\"text\"",
+			" type",
+			"<label",
+			"setLink",
+			"catID",
+			"catList",
+			"catlist",
+			" $",
+			"parentid",
+			"parent_id",
+			"getCatID",
+			"boolean",
+			"		$",
+			"excerpt",
+			"checkTag",
+			"();\n",
+			"loginOut",
+			"isCheckLogin",
+			"blog",
+			"cat",
+			"$pw",
+			"israndname",
+			"newf",
+			"originName",
+			"newfile",
+			"   =",
+			",})|(,*$)/',",
+			"modifyPost",
+			"		$",
+			"要删除文章的id集合",
+			"mysql_errno",
+			" $",
+			";\n",
+			"UNION",
+			"result",
+			"文章上下篇",
+			"tr",
+			"td",
+			"+=",
+			"itemNum",
+			" $",
+			";\n",
+			"\n		",
+			"div",
+			"intro",
+			";\n",
+			",\n",
+			"/*",
+			"SOURCE_PATH"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"catId",
+			"parent_id",
+			"description",
+			"aroot",
+			".="
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/modules/admin/resources/themes/default/index.php",
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							],
+							[
+								203,
+								203
+							],
+							[
+								245,
+								245
+							],
+							[
+								282,
+								282
+							],
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/modules/admin/action/indexAction.class.php",
+					"settings":
+					{
+						"buffer_size": 641,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/modules/admin/action/postAction.class.php",
+					"settings":
+					{
+						"buffer_size": 5387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/lib/model/tag.php",
+					"settings":
+					{
+						"buffer_size": 7774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/modules/admin/resources/themes/default/user_detail.php",
+					"settings":
+					{
+						"buffer_size": 3156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2496,
+								2496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 969.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/modules/admin/action/userAction.class.php",
+					"settings":
+					{
+						"buffer_size": 1270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1270,
+								1270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 570.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/lib/model/user.php",
+					"settings":
+					{
+						"buffer_size": 1120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 513.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/lib/model/userRegister.php",
+					"settings":
+					{
+						"buffer_size": 1385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								982,
+								658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"usera",
+				"app/modules/admin/action/userAction.class.php"
+			],
+			[
+				"user_d",
+				"app/modules/admin/resources/themes/default/user_detail.php"
+			],
+			[
+				"tag.ph",
+				"app/lib/model/tag.php"
+			],
+			[
+				"post",
+				"app/lib/model/post.php"
+			],
+			[
+				"posta",
+				"app/modules/admin/action/postAction.class.php"
+			],
+			[
+				"indexa",
+				"app/modules/admin/action/indexAction.class.php"
+			],
+			[
+				"index.php",
+				"app/modules/admin/resources/themes/default/index.php"
+			],
+			[
+				"ta",
+				"app/lib/model/tag.php"
+			],
+			[
+				"tag_list",
+				"app/modules/admin/resources/themes/default/tag_list.php"
+			],
+			[
+				"tag.php",
+				"app/lib/model/tag.php"
+			],
+			[
+				"sql",
+				"aroot/lib/data/sql/blog.sql"
+			],
+			[
+				"tag.",
+				"app/lib/model/tag.php"
+			],
+			[
+				"category.p",
+				"app/lib/model/category.php"
+			],
+			[
+				"cate",
+				"app/modules/admin/action/categoryAction.class.php"
+			],
+			[
+				"loga",
+				"app/modules/admin/action/loginAction.class.php"
+			],
+			[
+				"l",
+				"app/modules/admin/resources/themes/default/login.php"
+			],
+			[
+				"common.js",
+				"app/modules/admin/resources/script/common.js"
+			],
+			[
+				"style.css",
+				"app/modules/admin/resources/themes/default/style.css"
+			],
+			[
+				"login",
+				"app/modules/admin/resources/themes/default/login.php"
+			],
+			[
+				"pag",
+				"aroot/lib/pagination.php"
+			],
+			[
+				"post.php",
+				"app/lib/model/post.php"
+			],
+			[
+				"pagi",
+				"aroot/lib/pagination.php"
+			],
+			[
+				"category",
+				"app/lib/model/category.php"
+			],
+			[
+				"common",
+				"app/lib/model/common.php"
+			],
+			[
+				"indexaction",
+				"app/modules/index/action/indexAction.class.php"
+			],
+			[
+				"common.ph",
+				"aroot/common/common.php"
+			],
+			[
+				"conf",
+				"aroot/config/config.php"
+			],
+			[
+				"pagination",
+				"aroot/lib/pagination.php"
+			],
+			[
+				"cat",
+				"app/lib/model/category.php"
+			],
+			[
+				"catego",
+				"app/modules/admin/resources/themes/default/category_list.php"
+			],
+			[
+				"common.php",
+				"app/lib/model/common.php"
+			],
+			[
+				"commona",
+				"app/modules/admin/action/commonAction.class.php"
+			],
+			[
+				"lo",
+				"app/modules/admin/resources/themes/default/login.php"
+			],
+			[
+				"header",
+				"app/modules/admin/resources/themes/default/header.php"
+			],
+			[
+				"user",
+				"app/lib/model/userLogin.php"
+			],
+			[
+				"re",
+				"app/lib/model/userRegister.php"
+			],
+			[
+				"style",
+				"app/modules/index/resources/themes/default/style.css"
+			],
+			[
+				"reg",
+				"app/modules/index/resources/themes/default/register.php"
+			],
+			[
+				"index",
+				"app/modules/admin/action/indexAction.class.php"
+			],
+			[
+				"login.php",
+				"app/modules/admin/resources/themes/default/login.php"
+			],
+			[
+				"tem",
+				"aroot/lib/template.php"
+			],
+			[
+				"action",
+				"aroot/lib/action.php"
+			],
+			[
+				"d",
+				"aroot/lib/dispatcher.php"
+			],
+			[
+				"indexac",
+				"app/modules/admin/action/indexAction.class.php"
+			],
+			[
+				"dis",
+				"aroot/lib/dispatcher.php"
+			],
+			[
+				"com",
+				"aroot/common/common.php"
+			],
+			[
+				"con",
+				"config.php"
+			],
+			[
+				"function",
+				"aroot/source/function/function.php"
+			],
+			[
+				"func",
+				"source/function/function.php"
+			],
+			[
+				"v",
+				"source/class/view.php"
+			],
+			[
+				"index.clas",
+				"source/module/index.class.php"
+			],
+			[
+				"mys",
+				"source/class/mysql.php"
+			],
+			[
+				"mysql",
+				"source/class/mysql.php"
+			],
+			[
+				"my",
+				"source/class/mysql.php"
+			],
+			[
+				"mysql.php",
+				"source/class/mysql.php"
+			],
+			[
+				"myql",
+				"source/class/mysql.php"
+			],
+			[
+				"mysq",
+				"source/class/mysql.php"
+			],
+			[
+				"post_l",
+				"admin/resources/themes/default/post_list.php"
+			],
+			[
+				"temp",
+				"source/class/template.php"
+			],
+			[
+				"post.class",
+				"admin/source/module/post.class.php"
+			],
+			[
+				"page",
+				"admin/source/class/page.php"
+			],
+			[
+				"post_",
+				"admin/resources/themes/default/post_list.php"
+			],
+			[
+				"post.clas",
+				"admin/source/module/post.class.php"
+			],
+			[
+				"functions",
+				"wp-admin/admin-functions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}

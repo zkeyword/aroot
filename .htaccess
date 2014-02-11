@@ -1,0 +1,20 @@
+# 将 RewriteEngine 模式打开 
+RewriteEngine On 
+
+# Rewrite 系统规则请勿修改
+
+RewriteRule ^([a-zA-Z0-9]+).html$ ?$1
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ ?$1&$2
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ ?$1&$2=$3
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ ?$1&$2&$3=$4
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ ?$1&$2=$3&$4=$5
+RewriteRule ^([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ ?$1&$2&$3=$4&$5=$6
+
+
+RewriteRule ^([a-zA-Z0-9]+).html$ $1.php
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+).html$ $1.php?$2
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ $1.php?$2&$3
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ $1.php?$2&$3=$4
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ $1.php?$2&$3&$4=$5
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ $1.php?$2&$3=$4&$5=$6
+RewriteRule ^([a-zA-Z0-9]+)/([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+)-([a-zA-Z0-9]+).html$ $1.php?$2&$3&$4=$5&$6=$7
