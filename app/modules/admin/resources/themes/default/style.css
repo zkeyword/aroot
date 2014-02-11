@@ -1,0 +1,153 @@
+@charset "utf-8";
+/*
+* @Author:      norion
+* @Update:      2013.09.27
+* @Update by:   norion
+* @require:     base.css
+* @overview:    公用样式
+
+**************************
+.ui- 组件前缀
+
+.sl-/#sl- 兼容解决方案前缀
+注意：非组件/解决方案，请不要使用.ui-/.sl-/#sl-作为前缀
+
+.col- 文字颜色前缀
+注意：定义颜色时使用.col-作为前缀加上颜色值
+
+.font- 文字大小/样式前缀
+注意：定义大小/样式时使用.font-作为前缀文字大小值/样式，如：font-12、font-bold
+
+.l- jquery UI 样式前缀
+注意：只要是以.l-开头的，命名都是直接在UI里面定义，如果要增删改请修改js
+
+.mo-/#mo- 模块前缀
+注意：定义模块公用样式时使用.mo-/#mo-开头加上模块名，如.mo-testing-header；定义模块私用的样式时，直接文件名开头。若定义的样式可以提升到最顶级，有涉及到改图片背景，请修改图片路径。
+**************************
+*/
+/*载入公用样式*/
+@import url("base.css");
+
+/*
+ * 系统公共部分
+ */
+
+/*初始化*/
+html,body{min-width:800px;font:12px/1.4em Tahoma,Arial,"\5b8b\4f53",Helvetica,sans-serif;color:#666}
+a{color:#0074a2;}
+a:hover{color:#09e}
+.clear{clear:both;}
+
+/*常用设置*/
+body.f0{height:0;font-size:0;line-height:0;padding:0;margin:0;overflow:hidden}
+.clear{clear:both}
+.pt5{padding-top:5px}
+.pb5{padding-bottom:5px}
+.pl5{padding-left:5px}
+.pr5{padding-right:5px}
+.pt10{padding-top:10px}
+.pb10{padding-bottom:10px}
+.pl10{padding-left:10px}
+.pr10{padding-right:10px}
+.mt5{margin-top:5px}
+.mb5{margin-bottom:5px}
+.ml5{margin-left:5px}
+.mr5{margin-right:5px}
+.mt10{margin-top:10px}
+.mb10{margin-bottom:10px}
+.ml10{margin-left:10px}
+.mr10{margin-right:10px}
+
+/*全局文字*/
+.font-12{font-size:12px}
+.font-14{font-size:14px}
+.font-16{font-size:16px}
+.font-18{font-size:18px}
+.font-20{font-size:20px}
+.font-normal{font-weight:normal}
+.font-bold{font-weight:bold}
+
+.ui-label{display:inline;width:auto;height:22px;line-height:22px;float:left;color:#444;padding:0 7px 0 0}
+.ui-input{display:inline;width:auto;height:20px;line-height:20px;float:left;padding:0 3px;position:relative;border:1px solid #ccd3d6;color:#b2b2b2;background:#fff}
+.ui-textarea{display:inline;width:auto;float:left;padding:0 3px;position:relative;border:1px solid #ccd3d6;color:#b2b2b2;background:#fff}
+.ui-checkbox-label{height:16px;line-height:16px;}
+input[type=checkbox]{border-width:1px;border-style:solid;clear:none;cursor:pointer;display:inline-block;line-height:0;height:16px;margin:-4px 4px 0 0;outline:0;padding:0!important;text-align:center;vertical-align:middle;width:16px;min-width:16px}
+
+/*框*/
+#wrap{position:relative;}
+
+	/*头部*/
+	#header{position:fixed;top:0;left:0;z-index:2;width:100%;height:45px;line-height:45px;background:#464646;color:#ccc;box-shadow:inset 0 -5px 10px #333;}
+		#header .fn-left{padding:0 0 0 20px}
+		#header .fn-right{padding:0 20px 0 0}
+		#header a{color:#ccc}
+
+	/*内容*/
+	#main{padding:45px 0 0}
+
+		/*左容器*/
+		#left{float:left;width:170px;min-height:100px;position:relative;}
+			#sl-left{width:169px;background:#ececec;z-index:1;border-right:1px solid #D0D0D0;box-shadow:inset -3px 0 5px #ddd;}
+				.menuItem{display:block;height:28px;line-height:28px;padding:0 10px;position:relative;color:#21759b;font-weight:bold;border-top:1px solid #F9F9F9;border-bottom:1px solid #DFDFDF;}
+					.menuItemCurrent, a:hover.menuItem{color:#fff;background:#0074a2;}
+				.subMenu{display:none;padding:5px 10px;background:#fff;box-shadow:inset -3px 0 5px #ddd;}
+					.subMenuItem{display:block;height:20px;line-height:20px;}
+					.subMenuItemCurrent{font-weight:bold;}
+
+		/*右容器*/
+		#right{float:left;width:100%;margin:0 0 0 -170px;}
+			#sl-right{margin:5px 0 0;min-width:700px;padding:10px 20px;margin-left:170px;}
+				#rightHeader{position:relative;height:22px;padding:0 0 25px}
+					#rightHeader h2{line-height:22px;font-size:22px;font-weight:bold;position:absolute;top:0;left:0;background:#fff;padding:0 10px 0 0}
+					#rightHeaderLine{border-top:1px solid #eee;border-bottom:1px solid #f7fbe9;top:10px;position:relative;}
+				/*普通表单*/
+				#rightWrap{margin:0 40px}
+					.rightItem{border-bottom:1px solid #eee;padding:10px 0;}
+					.rightItem .ui-label{width:100px;text-align:right;font-weight:bold;}
+					.rightItem .ui-input{width:500px;}
+					.rightItem .ui-textarea{width:500px;height:180px}
+					.rightItem p{clear:both;padding:5px 0 0 105px}
+				/*表单按钮容器*/
+				#rightBtnWrap{padding:20px 40px 0}
+					#rightSubmit{width:80px;height:30px;line-height:30px;margin:0 0 0 105px}
+				/*表格容器*/
+				#rightTableWrap{border:1px solid #eee;}
+					table{width:100%;}
+						thead th{border-bottom:1px solid #eee;}
+						tfoot th{border-top:1px solid #eee;}
+						th{height:34px;line-height:34px;color:#333;padding:0 5px;font-size:14px}
+						td{padding:15px 5px}
+						tr.odd td{background:#fff}
+						tr.even td{background:#f9f9f9}
+
+	/*尾部*/
+	#footer{box-shadow:inset 0 2px 10px #ccc;}
+		#sl-footer{padding:10px 0;border-top:1px solid #dedede;text-align:center;}
+		#sl-footer p{padding:0 0 5px}
+		#goToTop{width:48px;height:48px;position:fixed;bottom:0;right:0;cursor:pointer;display:none;}
+		a:hover#goToTop{background-position:left top}
+
+
+
+/*登陆页面*/
+#loginMain{background:url(images/loginBg.jpg) center -100px;padding:150px 0 0}
+	#loginWrap{width:280px;margin:0 auto;border:1px solid #ccc;background:#fff;padding:50px 100px;box-shadow:0 0 5px #555;}
+		#loginWrap .ui-label{width:60px;height:35px;line-height:35px;text-align:right;font-size:14px;font-weight:bold;}
+		#loginWrap .ui-checkbox-label{height:16px;line-height:16px;}
+		#loginWrap .ui-input{width:200px;height:35px;line-height:35px;}
+		#randCodeWrap{}
+			#randCodeWrap #randCode{width:95px}
+			#randCodeWrap img{height:37px;margin:0 0 0 10px}
+		#loginSubmitWrap{width:120px;margin:0 auto}
+		#loginSubmit{width:120px;height:40px;line-height:40px}
+
+/*设置页面*/
+/*#optionWrap{margin:0 40px}
+	.optionItem{border-bottom:1px solid #eee;padding:10px 0;}
+	.optionItem .ui-label{width:100px;text-align:right;font-weight:bold;}
+	.optionItem .ui-input{width:500px;}
+	.optionItem .ui-textarea{width:500px;height:200px}
+	.optionItem p{clear:both;padding:5px 0 0 105px}
+#optionBtnWrap{padding:20px 40px}
+	#optionSubmit{width:80px;height:30px;line-height:30px;margin:0 0 0 105px}*/
+

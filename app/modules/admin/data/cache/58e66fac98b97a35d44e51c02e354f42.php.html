@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit" />
+	<title>aroot - Powered by aroot</title>
+	<link rel="stylesheet" href="/aroot/app/modules/admin/resources/themes/default/style.css?1.1" type="text/css" media="all" /></head>
+<body id="wrap">
+		<div id="header" class="fn-clear">
+		<div class="fn-left">
+			<a href="/aroot" id="loginOut">网站</a>
+			<a href="#">新建文章</a>
+			<a href="#">新建页面</a>
+			<a href="#">新建用户</a>
+		</div>
+		<div class="fn-right">
+			<a href="#" id="loginOut">欢迎您，</a>
+			<a href="#" id="loginOut">设置</a>
+			<a href="/aroot/admin.php?login&loginout" id="loginOut">登出</a>
+		</div>
+	</div>
+	<div id="main" class="fn-clear">
+	<div id="left">
+	<div id="sl-left">
+		<ul id="menu">
+			<li>
+				<a class="menuItem" href="#">文章</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?post">文章列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?post&add">写文章</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">分类</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?category">分类列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?category&add">添加分类</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">标签</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?tag">标签列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?tag&add">添加标签</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">页面</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?single">页面列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?single&add">添加页面</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="/aroot/admin.php?media">富文本</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?media">富文本列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?media&add">添加富文本</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">评论</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?comment">评论列表</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="/aroot/admin.php?user">用户</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?user">用户列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?user&add">添加用户</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="/aroot/admin.php?options">设置</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?options">基本设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&post">撰写设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&comment">评论设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&media">富文本设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&link">友情链接</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div><div id="right">
+	<div id="sl-right">
+		<form method="post">
+			<div id="rightHeader">
+				<div id="rightHeaderLine" class="f0"></div>
+				<h2>分类列表</h2>
+			</div>
+			<table>
+				<thead>
+					<th><input type="checkbox" name="postAll" value="all" /></th>
+					<th>名字</th>
+					<th>描述</th>
+					<th>别名</th>
+					<th>文章</th>
+				</thead>
+				<tbody>
+					<tr><td><input type="checkbox" name="catRows[]" value="1" /></td><td><a href="/aroot/admin.php?category&detail&id=1">未分类</a></td><td>这个是一个分类</td><td>default1212121</td><td><a href="/aroot/admin.php?category&detail&id=1">0</td></tr><tr><td><input type="checkbox" name="catRows[]" value="3" /></td><td><a href="/aroot/admin.php?category&detail&id=3">未分类1</a></td><td>这个是一个分类</td><td>default1</td><td><a href="/aroot/admin.php?category&detail&id=3">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="4" /></td><td><a href="/aroot/admin.php?category&detail&id=4">未分类2</a></td><td>这个是一个分类</td><td>default2</td><td><a href="/aroot/admin.php?category&detail&id=4">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="5" /></td><td><a href="/aroot/admin.php?category&detail&id=5">未分类3</a></td><td>这个是一个分类</td><td>default3</td><td><a href="/aroot/admin.php?category&detail&id=5">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="6" /></td><td><a href="/aroot/admin.php?category&detail&id=6">未分类4</a></td><td>这个是一个分类</td><td>default4</td><td><a href="/aroot/admin.php?category&detail&id=6">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="7" /></td><td><a href="/aroot/admin.php?category&detail&id=7">未分类5</a></td><td>这个是一个分类</td><td>default5</td><td><a href="/aroot/admin.php?category&detail&id=7">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="8" /></td><td><a href="/aroot/admin.php?category&detail&id=8">未分类6</a></td><td>这个是一个分类</td><td>default6</td><td><a href="/aroot/admin.php?category&detail&id=8">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="9" /></td><td><a href="/aroot/admin.php?category&detail&id=9">未分类7</a></td><td>这个是一个分类</td><td>default7</td><td><a href="/aroot/admin.php?category&detail&id=9">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="10" /></td><td><a href="/aroot/admin.php?category&detail&id=10">未分类8</a></td><td>这个是一个分类</td><td>default8</td><td><a href="/aroot/admin.php?category&detail&id=10">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="11" /></td><td><a href="/aroot/admin.php?category&detail&id=11">未分类9</a></td><td>这个是一个分类</td><td>default9</td><td><a href="/aroot/admin.php?category&detail&id=11">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="12" /></td><td><a href="/aroot/admin.php?category&detail&id=12">未分类9</a></td><td>这个是一个分类</td><td>default10</td><td><a href="/aroot/admin.php?category&detail&id=12">1</td></tr><tr><td><input type="checkbox" name="catRows[]" value="18" /></td><td><a href="/aroot/admin.php?category&detail&id=18">添加分类4</a></td><td></td><td>dafsdfasdfasdf</td><td><a href="/aroot/admin.php?category&detail&id=18">0</td></tr>				</tbody>
+			</table>
+			<div>
+				<input type="submit" value="删除" name="delete">
+				<a href="/aroot/admin.php?category&page=1">上一页</a><a href="/aroot/admin.php?category&page=1">1</a><a href="/aroot/admin.php?category&page=2" class="on">2</a><span>下一页</span> 显示从11到20，总 12 条 。每页显示：10			</div>
+		</form>
+	</div>
+</div>
+	</div>
+	<div id="footer">
+		<div id="sl-footer" class="fn-clear">
+			<p>基于 aroot 构建</p>
+			<p>
+				<a href="#">文档支持</a>
+				<a href="#">论坛</a>
+				<a href="#">报告错误</a>
+				<a href="#">其他资源</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+<script src="/aroot/app//resources/script/jquery.min.js?1.1"></script>
+<script src="/aroot/app/modules/admin/resources/script/common.js?1.1"></script>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit" />
+	<title>aroot - Powered by aroot</title>
+	<link rel="stylesheet" href="/aroot/app/modules/admin/resources/themes/default/style.css?1.1" type="text/css" media="all" /></head>
+<body id="wrap">
+		<div id="loginMain" class="fn-clear">
+	<form name="login" method="post" id="loginWrap">
+	<div class="fn-clear">
+		<label class="ui-label" for="user">用户名：</label>
+		<input class="ui-input" type="text" name="user" id="user" value="" />
+	</div>
+	<div class="mt10 fn-clear">
+		<label class="ui-label" for="pw">密码：</label>
+		<input class="ui-input" type="password" name="pw" id="pw" />
+	</div>
+	<div class="mt10 fn-clear" id="randCodeWrap" style="display:none">
+		<label class="ui-label" for="randCode">验证码：</label>
+		<input class="ui-input" type="text" name="randCode" id="randCode" />
+		<img src="/aroot?login&code" id="randImg" onclick="document.getElementById('randImg').src='/aroot?login&code&v='+Math.random()" />	</div>
+	<div class="mt10 fn-clear">
+		<label class="ui-label ui-checkbox-label" for="keepLogin">记住我：</label>
+		<input class="ui-checkbox" type="checkbox" name="keepLogin" id="keepLogin">
+	</div>
+	<div class="mt10 fn-clear">
+		<div id="loginSubmitWrap">
+			<input type="submit" name="submit" id="loginSubmit" value="登陆" />
+		</div>
+	</div>
+</form>
+	</div>
+	<div id="footer">
+		<div id="sl-footer" class="fn-clear">
+			<p>基于 aroot 构建</p>
+			<p>
+				<a href="#">文档支持</a>
+				<a href="#">论坛</a>
+				<a href="#">报告错误</a>
+				<a href="#">其他资源</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+<script src="/aroot/app/resources/script/jquery.min.js?1.1"></script>
+<script src="/aroot/app/modules/admin/resources/script/tinymce/tinymce.min.js?1.1"></script>
+<script src="/aroot/app/modules/admin/resources/script/tinymce/jquery.tinymce.min.js?1.1"></script>
+<script src="/aroot/app/modules/admin/resources/script/common.js?1.1"></script>
+<script>
+	$(document).ready(function(){
+		$('#loginSubmit').click(function(){
+			$.ajax({
+				type: "POST",
+				url: "/aroot/admin.php?login&login",
+				data: {
+					user:      $("#user").val(),
+					pw:        $("#pw").val(),
+					randCode:  $("#randCode").val(),
+					keepLogin: $("#keepLogin").attr("checked"),
+					submit:    $("#loginSubmit").val()
+				},
+				beforeSend:function(){
+					$("#submit").val('登陆中...');
+				},
+				success: function(json){
+					var obj = $.parseJSON(json);
+					$("#submit").val('登陆');
+
+					if( obj.isLoginErrorNo ){
+						$('#randCodeWrap').show();
+					}
+
+					if( obj.msg =='验证码出错' ){
+
+					}else if( obj.msg == '密码错误' ){
+						
+					}else if( obj.msg == '该用户名不存在' ){
+						
+					}else if( obj.msg == '登录成功' ){
+						document.location.replace(document.location.href);
+					}
+				}
+			});
+			return false;
+		});
+	});
+</script>

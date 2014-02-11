@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*
+* @Author:      norion
+* @Update:      2012.04.09
+* @Update by:   norion
+* @require:     base.css
+* @overview:    huizeUI
+
+**************************
+.ui- 组件前缀
+
+.sl- 兼容解决方案前缀
+注意：非组件/解决方案，请不要使用.ui-/.sl-作为前缀
+
+.col- 文字颜色前缀
+注意：定义颜色时使用.col-作为前缀加上颜色值
+
+.font- 文字大小/样式前缀
+注意：定义大小/样式时使用.font-作为前缀文字大小值/样式，如：font-12、font-bold
+
+.l- jquery UI 样式前缀
+注意：只要是以.l-开头的，命名都是直接在UI里面定义，如果要增删改请修改js
+
+.mo-/#mo- 模块前缀
+注意：定义模块公用样式时使用.mo-/#mo-开头加上模块名，如.mo-testing-header；定义模块私用的样式时，直接文件名开头。若定义的样式可以提升到最顶级，有涉及到改图片背景，请修改图片路径。
+**************************
+*/
+/*载入公用样式*/
+@import url("base.css");
+
+/*初始化*/
+a{color:#0d61a8}
+a:hover{color:#f69}
+.clear{clear:both;}
+body{position:relative;color:#333;font:14px/1.5em Comic Sans MS,Tahoma}
+pre{background:#fafafa;width:589px;overflow:auto;margin:0 0 10px 2em;padding:5px 10px;clear:both;border-left:3px solid #09e}
+pre:hover{background:#eee;}
+::selection{background:#09e;color:#fff}
+#content table{margin:0 2em 1em;border-collapse:collapse;border-spacing:0}
+#content tr{border-bottom:1px solid #ececec}
+#content th,#content td{padding:10px}
+#content th{font-weight:bold}
+
+/*公共表单*/
+.ui-label{float:left;text-align:right;}
+.ui-input{float:left;}
+
+/*公共表单*/
+.inputTxt{background:#fff;border:1px solid #d0d0d0;border-right:0 none;padding:0 5px;}
+.inputBtn{background:#ddd;border:0 none;float:left;cursor:pointer;}
+.inputTxt:hover{-webkit-box-shadow:0 0 3px #afe2ff;-moz-box-shadow:0 0 3px #afe2ff;box-shadow:0 0 3px #afe2ff;}
+	form:hover .inputTxt{border-color:#09e}
+	form:hover .inputBtn{background:#09e;color:#fff}
+	form:active .inputBtn{-webkit-box-shadow:0 0 10px #ddd inset;-moz-box-shadow:0 0 10px #ddd inset;box-shadow:0 0 10px #ddd inset}
+
+/*布局*/
+/*#topBar{width:100%;background:#464646;height:30px;line-height:30px;position:fixed;top:0px;left:0;}
+	#top{padding:0 10px}
+		#top a{color:#ccc}*/
+#header{height:69px;margin:0 0 15px;background:#f7f7f7;border-bottom:1px solid #d0d0d0;-webkit-box-shadow:0 3px 4px #ddd;-moz-box-shadow:0 3px 4px #ddd;box-shadow:0 3px 4px #ddd;}
+	.navBar{width:960px;margin:0 auto}
+		#logo{float:left;padding:18px 30px 0 0}
+			#logo a{display:block;width:207px;height:33px;background:url(images/logo.png) no-repeat center;text-indent:-999em}
+		#nav {float:left;padding:18px 0 0}
+			#nav li{float:left;padding:0 5px 0 0}
+				#nav a{display:block;float:left;padding:5px 10px;color:#fff;background:#09e}
+				#nav ul{display:none}
+		#searchForm{float:right;margin:21px 0}
+			#searchTxt{width:140px;height:25px;line-height:25px;-webkit-box-shadow:0 1px 3px #ddd inset;-moz-box-shadow:0 1px 3px #ddd inset;box-shadow:0 1px 3px #ddd inset;float:left;}
+			#searchBtn{height:27px;line-height:27px;width:50px}
+
+#content{width:960px;margin:0 auto;}
+	#left{width:640px;float:left;overflow:hiddle;padding:0 0 15px}
+	#right{width:300px;float:right;overflow:hiddle}
+
+#footer{width:100%;height:30px;line-height:30px;background:#f7f7f7;border-top:1px solid #ddd;color:#666;clear:both}
+	#footer a{color:#666}
+	
+	/*返回顶部*/
+	a#goTop{width:19px;position:fixed !important;position:absolute;right:5px;left:50%;margin:0 0 0 160px;padding:5px 0;z-index:1000;bottom:40px !important;bottom:auto;top:auto !important;top:400px;background:#f7f7f7;display:block;border:1px solid #ddd;color:#0d61a8;font:12px/14px Arial;text-align:center;display:none}
+			#goTop .span1{display:block;height:8px;margin:0 0 0 2px;font-size:28px;overflow:hidden;text-align:left;}
+			#goTop .span2{display:block;height:5px;margin:-1px 0 2px 3px;margin-bottom:4px;font-size:11px;overflow:hidden;text-align:left;}
+	
+	/*ie6提示*/
+	#ie6-warning{width:100%;position:absolute;top:0;left:0;background:#ffffe1;padding:5px 0;font-size:12px}
+		#ie6-warning p{width:960px;margin:0 auto;}
+
+
+/*公共文章列表*/
+			#catList{width:637px;}
+			.ui-list li{width:100%;float:left;border-bottom:3px solid #f2f2f2}
+			.ui-listBg{width:100%;float:left;border-bottom:1px solid #ddd;padding:10px 0;}
+				.ui-listImg{width:140px;position:relative;}
+					.ui-listImg .tag{position:absolute;top:0;left:0;display:none;color:#fff;padding:1px 5px;background:#000;opacity:0.70}
+					.ui-listImg img{float:left;}
+					.ui-listImg a:hover.tag{background:#09e;opacity:1}
+					.ui-listImg:hover{-webkit-box-shadow:0 0 5px #09e;-moz-box-shadow:0 0 5px #09e;box-shadow:0 0 5px #09e;}
+				.ui-listDetail{padding:0 3px 0 0}
+					.ui-listTitle{font-size:16px}
+					.ui-listAside{margin:5px 0;color:#999;font-size:12px}
+					.ui-listAside a{margin:0 0 0 5px;color:#999}
+					.ui-fullArt{float:right;color:#666;margin:5px 0 0}
+				.ui-moveTag{clear:both;border:1px dotted #ddd;background:#f9f9f9;padding:5px;color:#666;margin:10px 0 0;float:left;white-space:nowrap;}
+					.ui-moveTag:hover{border-color:#09e;background:#f2f2f2}
+						.ui-moveTag a{margin:0 5px 0 0;color:#666}
+
+
+						/*评论*/
+			#comments{margin:10px 0 0}
+			#comment{width:98%;}
+			.depth-1{border:1px solid #ccc;padding:10px 10px 0;margin:0 0 10px}
+			.comment-body{border:1px solid #ccc;margin:0 0 10px;padding:10px}
+			.comment-entry{clear:both;position:relative;}
+			.children{padding:0 0 0 20px}
+				.articleAsideHeader,#reply-title{background:#f2f2f2;padding:5px 10px}
+				.comment-author{float:left;}
+				.avatar {margin:0 10px 0 0}
+				.comment-reply-link{position:absolute;top:5px;right:5px}
+			#reply-title{margin:0 0 10px}
+			#commentform p{padding:0 0 10px}

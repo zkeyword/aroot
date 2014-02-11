@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit" />
+	<title>aroot - Powered by aroot</title>
+	<link rel="stylesheet" href="/aroot/app/modules/admin/resources/themes/default/style.css?1.1" type="text/css" media="all" /></head>
+<body id="wrap">
+		<div id="header" class="fn-clear">
+		<div class="fn-left">
+			<a href="/aroot" id="loginOut">网站</a>
+			<a href="#">新建文章</a>
+			<a href="#">新建页面</a>
+			<a href="#">新建用户</a>
+		</div>
+		<div class="fn-right">
+			<a href="#" id="loginOut">admin欢迎您，</a>
+			<a href="#" id="loginOut">设置</a>
+			<a href="/aroot/admin.php?login&loginout" id="loginOut">登出</a>
+		</div>
+	</div>
+	<div id="main" class="fn-clear">
+	<div id="left">
+	<div id="sl-left">
+		<ul id="menu">
+			<li>
+				<a class="menuItem" href="/aroot/admin.php?index">首页</a>
+			</li>
+			<li>
+				<a class="menuItem" href="#">文章</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?post">文章列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?post&add">写文章</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">分类</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?category">分类列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?category&add">添加分类</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">标签</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?tag">标签列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?tag&add">添加标签</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">页面</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?single">页面列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?single&add">添加页面</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="/aroot/admin.php?media">富文本</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?media">富文本列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?media&add">添加富文本</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="#">评论</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?comment">评论列表</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem menuItemCurrent" href="/aroot/admin.php?user">用户</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?user">用户列表</a></li>
+					<li><a class="subMenuItem subMenuItemCurrent" href="/aroot/admin.php?user&add">添加用户</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="/aroot/admin.php?options">设置</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?options">基本设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&post">撰写设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&comment">评论设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&media">富文本设置</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?options&link">友情链接</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class="menuItem" href="/aroot/admin.php?rabc">权限管理</a>
+				<ul class="subMenu">
+					<li><a class="subMenuItem" href="/aroot/admin.php?rabc&addnode">添加节点</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?rabc&addrole">添加角色</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?rabc&nodelist">节点列表</a></li>
+					<li><a class="subMenuItem" href="/aroot/admin.php?rabc&rolelist">角色列表</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div><div id="right">
+	<div id="sl-right">
+		<form method="post">
+							<div id="rightHeader">
+					<div id="rightHeaderLine" class="f0"></div>
+					<h2>添加用户</h2>
+				</div>
+				<ul id="rightWrap">
+					<li class="rightItem fn-clear">
+						<label class="ui-label" for="">用户名:</label>
+						<input class="ui-input" type="text" name="name" id="">
+						<p>这将是它在站点上显示的名字.</p>
+					</li>
+					<li class="rightItem fn-clear">
+						<label class="ui-label" for="">昵称:</label>
+						<input class="ui-input" type="text" name="name" id="">
+						<p>这将是它在站点上显示的名字.</p>
+					</li>
+					<li class="rightItem fn-clear">
+						<label class="ui-label" for="">邮箱:</label>
+						<input class="ui-input" type="text" name="name" id="">
+						<p>这将是它在站点上显示的名字.</p>
+					</li>
+					<li class="rightItem fn-clear">
+						<label class="ui-label" for="">密码:</label>
+						<input class="ui-input" type="text" name="slug" id="" />
+						<p>“别名”是在URL中使用的别称，它可以令URL更美观。通常使用小写，只能包含字母，数字和连字符（-）.</p>
+					</li>
+				</ul>
+						<div id="rightBtnWrap">
+				<input type="submit" value="提交" name="rightSubmit" id="rightSubmit" />
+			</div>
+		</form>
+	</div>
+</div>
+	</div>
+	<div id="footer">
+		<div id="sl-footer" class="fn-clear">
+			<p>基于 aroot 构建</p>
+			<p>
+				<a href="#">文档支持</a>
+				<a href="#">论坛</a>
+				<a href="#">报告错误</a>
+				<a href="#">其他资源</a>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
+<script src="/aroot/app/resources/script/jquery.min.js?1.1"></script>
+<script src="/aroot/app/modules/admin/resources/script/tinymce/tinymce.min.js?1.1"></script>
+<script src="/aroot/app/modules/admin/resources/script/tinymce/jquery.tinymce.min.js?1.1"></script>
+<script src="/aroot/app/modules/admin/resources/script/common.js?1.1"></script>
